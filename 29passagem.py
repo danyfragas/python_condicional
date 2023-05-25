@@ -5,5 +5,6 @@ if d >= 200:
     passagem = 0.45 * d
 else:
     passagem = 0.50 * d
+# passagem = d * 0.45 if d >= 200 else d * 0.50
 
 print('O valor da passagem custará: R$ {:.2f}'. format(passagem))
